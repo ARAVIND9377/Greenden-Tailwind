@@ -8,15 +8,6 @@ Sure! Here's your updated `README.md` without any mention of JavaScript — focu
 
 A responsive and modern **Greenden website** clone built using **HTML5** and **Tailwind CSS**. This project recreates the clean, elegant look and feel of the original Greenden site with a focus on mobile-first design and utility-first CSS.
 
-## 🚀 Demo
-
-👉 [Live Demo](#) — *Coming Soon / Add your GitHub Pages or Netlify link here*
-
-## 📸 Screenshots
-
-*(Optional: Add screenshots of your homepage or sections)*
-![Greenden Clone Screenshot](./screenshot.png)
-
 ## 🔧 Tech Stack
 
 * 🌐 **HTML5**
