@@ -14,10 +14,9 @@ closenav.addEventListener("click", function () {
 
 // Product Functionality
 
-var productCotainer = document.getElementById("product-container")
+var productContainer = document.getElementById("product-container")
 var search = document.getElementById("search")
-var productList = productCotainer.querySelectorAll("div")
-
+var productList = productContainer.querySelectorAll("div")
 
 
 search.addEventListener("keyup", function () {
@@ -25,9 +24,12 @@ search.addEventListener("keyup", function () {
 
     for (count = 0; count < productList.length; count = count + 1) {
 
-        var productname = productList[count].querySelectorAll("h1").textContent
-        if (productname[count].textContent.toUpperCase().indexOf(enterdvalue) < 0) {
+        var productname = productList[count].querySelector("h1").textContent
+
+        if (productname.toUpperCase().indexOf(enterdvalue) < 0) {
+
             productList[count].style.display = "none"
+
         } else {
             productList[count].style.display = "block"
         }
